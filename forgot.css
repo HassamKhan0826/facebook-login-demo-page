@@ -40,9 +40,9 @@ input:focus-visible {
 outline: 3px solid #1877f2;
 outline-offset: 2px;
 }
-/* ==========================================================================
+/*
 Header Section
-========================================================================== */
+*/
 .site-header {
 width: 100%;
 padding: 16px 30px;
@@ -57,9 +57,9 @@ margin: 0 auto;
 width: 40px;
 height: 40px;
 }
-/* ==========================================================================
+/* 
 Main Layout
-========================================================================== */
+*/
 .main-container {
 flex: 1 0 auto;
 display: flex;
@@ -67,9 +67,9 @@ align-items: center;
 justify-content: center;
 padding: 40px 20px;
 }
-/* ==========================================================================
+/* 
 Forgot Password Card
-========================================================================== */
+*/
 .forgot-card {
 width: 100%;
 max-width: 450px;
@@ -79,9 +79,9 @@ border-radius: 8px;
 box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 overflow: hidden;
 }
-/* ==========================================================================
+/* 
 Card Header / Heading
-========================================================================== */
+*/
 .card-header {
 padding: 16px;
 border-bottom: 1px solid #dddfe2;
@@ -91,10 +91,7 @@ font-size: 20px;
 font-weight: 700;
 color: #1c1e21;
 }
-/* ==========================================================================
-Card Body / Paragraph / Form / Input
-Fix: .search-form existed in HTML with no rule
-========================================================================== */
+
 .card-body {
 padding: 16px;
 }
@@ -124,9 +121,9 @@ outline: none;
 border-color: #1877f2;
 box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
 }
-/* ==========================================================================
+/* 
 Card Footer / Divider / Buttons
-========================================================================== */
+*/
 .card-footer {
 display: flex;
 align-items: center;
@@ -136,9 +133,9 @@ padding: 12px 16px;
 background-color: #f5f6f7;
 border-top: 1px solid #dddfe2;
 }
-/* ==========================================================================
+/* 
 Cancel Button
-========================================================================== */
+*/
 .btn-cancel {
 background-color: #ffffff;
 color: #4b4f56;
@@ -156,9 +153,9 @@ background-color: #f5f6f7;
 .btn-cancel:active {
 background-color: #ebedf0;
 }
-/* ==========================================================================
+/*
 Search Button
-========================================================================== */
+*/
 .btn-search {
 background-color: #1877f2;
 color: #ffffff;
@@ -176,9 +173,9 @@ background-color: #166fe5;
 .btn-search:active {
 background-color: #125abd;
 }
-/* ==========================================================================
+/* 
 Tablet Layout
-========================================================================== */
+*/
 @media (max-width: 768px) {
 .main-container {
 padding: 24px 16px;
@@ -187,9 +184,9 @@ padding: 24px 16px;
     max-width: 100%;
 }
 }
-/* ==========================================================================
+/* 
 Mobile Layout
-========================================================================== */
+*/
 @media (max-width: 480px) {
 .site-header {
 padding: 12px 16px;
